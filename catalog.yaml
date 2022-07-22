@@ -1,0 +1,17 @@
+#%Catalog Descriptor 1.0
+projects:
+  - main: api.yaml
+    assetId: package-tracker-api
+    version: 1.0.0
+    apiVersion: v1
+    tags:
+      - oas
+      - mobile
+    categories:
+      Tier:
+        - xapi
+    documentation:
+      Additional Information: Additional_Information.md
+contact:
+  name: "Dave Felcey"
+  email: "dave.felcey@mulesoft.com"
