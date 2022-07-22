@@ -1,6 +1,6 @@
 #%Catalog Descriptor 1.0
 projects:
-  - main: api.yaml
+  - main: api.json
     assetId: package-tracker-api
     version: 1.0.0
     apiVersion: v1
