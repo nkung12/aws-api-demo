@@ -4,6 +4,10 @@
     "version": "1.0.0",
     "title": "PackageTracker API",
     "description": "An API to track the ongoing status of a package in transit",
+    "license": {
+      "name": "Apache 2.0",
+    "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
+    },
     "contact": {
       "name": "Dave Felcey",
       "email": "dave.felcey@mulesoft.com",
@@ -25,6 +29,9 @@
   "paths": {
     "/status/{id}": {
       "get": {
+        "tags": [
+          "Package Tracking"
+        ],
         "description": "Gets the status of a package",
         "operationId": "get-package-status",
         "parameters": [
@@ -35,7 +42,8 @@
             "required": true,
             "schema": {
               "type": "string"
-            }
+            },
+            "example": "12345"
           }
         ],
         "responses": {
