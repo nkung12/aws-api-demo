@@ -8,13 +8,14 @@
       "name": "Dave Felcey",
       "email": "dave.felcey@mulesoft.com",
       "url": "https://mulesoft.com"
-    },
+    }
   },
   "security" :
-  {
-    "type": "https",
-    "scheme": "basic"
-  },
+  [
+    { 
+      "BasicAuth": []
+    }
+  ],
   "tags": [
     {
       "name": "Package Tracking",
@@ -53,6 +54,12 @@
     }
   },
   "components": {
+    "securitySchemes": {
+       "BasicAuth": {
+        "type": "http",
+        "scheme": "basic"
+      }
+    },
     "schemas": {
       "Body": {
         "type": "object",
