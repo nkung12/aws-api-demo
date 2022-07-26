@@ -5,11 +5,17 @@
     "title": "PackageTracker API",
     "description": "An API to track the ongoing status of a package in transit"
   },
+  "tags": [
+    {
+      "name": "Package Tracking",
+      "description": "Get current package status"
+    }
+  ],
   "paths": {
     "/status/{id}": {
       "get": {
         "description": "Gets the status of a package",
-        "operationId": "get package status",
+        "operationId": "get-package-status",
         "parameters": [
           {
             "name": "id",
