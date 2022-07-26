@@ -8,6 +8,8 @@ projects:
       - oas
       - mobile
     categories:
+      Certified:
+        - Best Practice
       Tier:
         - xapi
     documentation:
