@@ -48,11 +48,15 @@
         ],
         "responses": {
           "200": {
-            "description": "pet response",
+            "description": "package response",
             "content": {
               "application/json": {
                 "schema": {
                   "$ref": "#/components/schemas/Body"
+                },
+                "example": {
+                  "status": "In transit",
+                  "message": "On route to destination"
                 }
               }
             }
