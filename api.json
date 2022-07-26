@@ -3,7 +3,17 @@
   "info": {
     "version": "1.0.0",
     "title": "PackageTracker API",
-    "description": "An API to track the ongoing status of a package in transit"
+    "description": "An API to track the ongoing status of a package in transit",
+    "contact": {
+      "name": "Dave Felcey",
+      "email": "dave.felcey@mulesoft.com",
+      "url": "https://mulesoft.com"
+    },
+  },
+  "security" :
+  {
+    "type": "https",
+    "scheme": "basic"
   },
   "tags": [
     {
@@ -55,6 +65,10 @@
             "type": "string",
             "example": "On route to destination"
           }
+        },
+        "example": {
+          "status": "In transit",
+          "message": "On route to destination"
         }
       }
     }
