@@ -3,7 +3,7 @@
   "info": {
     "version": "1.0.0",
     "title": "PackageTracker API",
-    "description": "An API to track the ongoing status of a package in transit",
+    "description": "An API to track the ongoing status of a package",
     "license": {
       "name": "Apache 2.0",
     "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
