@@ -20,6 +20,12 @@
       "BasicAuth": []
     }
   ],
+  "tags": [
+    {
+      "name": "Package Tracking",
+      "description": "Get current package status"
+    }
+  ],
   "paths": {
     "/status/{id}": {
       "get": {
