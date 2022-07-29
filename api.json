@@ -14,10 +14,10 @@
       "url": "https://mulesoft.com"
     }
   },
-  "tags": [
-    {
-      "name": "Package Tracking",
-      "description": "Get current package status"
+  "security" :
+  [
+    { 
+      "BasicAuth": []
     }
   ],
   "paths": {
