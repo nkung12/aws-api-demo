@@ -14,12 +14,6 @@
       "url": "https://mulesoft.com"
     }
   },
-  "security" :
-  [
-    { 
-      "BasicAuth": []
-    }
-  ],
   "tags": [
     {
       "name": "Package Tracking",
