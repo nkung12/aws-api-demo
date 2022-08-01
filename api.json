@@ -14,6 +14,12 @@
       "url": "https://mulesoft.com"
     }
   },
+  "security" :
+  [
+    { 
+      "BasicAuth": []
+    }
+  ],
   "tags": [
     {
       "name": "Package Tracking",
@@ -27,7 +33,6 @@
           "Package Tracking"
         ],
         "description": "Gets the status of a package",
-        "operationId": "get-package-status",
         "parameters": [
           {
             "name": "id",
