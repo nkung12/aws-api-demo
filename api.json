@@ -20,12 +20,6 @@
       "description": "Get current package status"
     }
   ],
-  "security" :
-  [
-    { 
-      "BasicAuth": []
-    }
-  ],
   "paths": {
     "/status/{id}": {
       "get": {
