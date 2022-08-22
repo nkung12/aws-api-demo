@@ -20,6 +20,12 @@
       "description": "Get current package status"
     }
   ],
+  "security" :
+  [
+    { 
+      "BasicAuth": []
+    }
+  ],
   "paths": {
     "/status/{id}": {
       "get": {
@@ -27,7 +33,7 @@
           "Package Tracking"
         ],
         "description": "Gets the status of a package",
-        "operationId": "get-package-status",
+        "operationId": "get package status",
         "parameters": [
           {
             "name": "id",
