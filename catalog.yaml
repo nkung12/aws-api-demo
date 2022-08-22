@@ -12,6 +12,7 @@ projects:
         - xapi
     documentation:
       Additional Information: Additional_Information.md
+      Home: Home.md
 contact:
   name: "Dave Felcey"
   email: "dave.felcey@mulesoft.com"
