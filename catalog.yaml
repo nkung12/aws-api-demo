@@ -1,12 +1,31 @@
 #%Catalog Descriptor 1.0
+triggerConditions: 
+  branches:
+    - master
+    - develop
+  tags:
+    - candidate/(.*)
+
+versionStrategyConditions:
+  minorIncrease:
+    branches:
+      - master
+      - develop
+
+contact:
+  name: Dave Felcey
+  email: dave.felcey@mulesoft.com
+
 projects:
   - main: api.json
     assetId: package-tracker-api
-    version: 1.0.0
+    version: 1.0.1
     apiVersion: v1
-    tags:
-      - oas
-      - mobile
+    contact:
+      name: Dave Felcey
+      email: dave.felcey@mulesoft.com
+    documentation:
+      Additional Information: Additional_Information.md
     categories:
       Tier:
         - xapi
@@ -16,3 +35,4 @@ projects:
 contact:
   name: "Dave Felcey"
   email: "dave.felcey@mulesoft.com"
+
