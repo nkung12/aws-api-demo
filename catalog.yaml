@@ -29,6 +29,10 @@ projects:
     categories:
       Tier:
         - xapi
-    tags:
-      - oas
-      - mobile
+    documentation:
+      Additional Information: Additional_Information.md
+      Home: Home.md
+contact:
+  name: "Dave Felcey"
+  email: "dave.felcey@mulesoft.com"
+
